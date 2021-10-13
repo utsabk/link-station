@@ -43,7 +43,6 @@ devicePoints.forEach((points) => {
     if (power > previousPower) {
       previousPower = power;
       bestStation = linkStation;
-      console.log('this is power for points', points, linkStation, power);
     }
   });
   if (previousPower === 0) {
